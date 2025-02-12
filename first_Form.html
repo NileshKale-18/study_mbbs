@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply for MBBS abroad in top countries. Get admission guidance and eligibility details.">
+    <meta name="keywords" content="MBBS abroad, study medicine, medical universities, MBBS admission">
+    <meta name="author" content="Study MBBS Abroad">
+    <title>Study MBBS Abroad</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'FB_PIXEL_ID'); 
+        fbq('track', 'PageView');
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    
+    <!-- Hero Section -->
+    <section class="text-center bg-blue-600 text-white py-16">
+        <h1 class="text-4xl font-bold">Apply Now for MBBS Abroad</h1>
+        <p class="mt-4">Get admission to top medical universities across the world.</p>
+        <a href="#lead-form" class="mt-6 bg-white text-blue-600 px-6 py-3 rounded-md inline-block font-semibold">Apply Now</a>
+    </section>
+    
+    <!-- Why Study MBBS Abroad -->
+    <section class="container mx-auto my-12 p-6">
+        <h2 class="text-3xl font-semibold text-center">Why Study MBBS Abroad?</h2>
+        <ul class="mt-4 text-lg text-gray-700 list-disc list-inside">
+            <li>Affordable Tuition Fees</li>
+            <li>Globally Recognized Universities</li>
+            <li>High-Quality Education</li>
+            <li>English Medium Curriculum</li>
+        </ul>
+    </section>
+
+    <!-- Admission Process & Eligibility -->
+    <section class="container mx-auto my-12 p-6 bg-gray-50 rounded-md shadow-md">
+        <h2 class="text-3xl font-semibold text-center">Admission Process & Eligibility</h2>
+        <ul class="mt-4 text-lg text-gray-700 list-disc list-inside">
+            <li>Pass 10+2 with Physics, Chemistry, and Biology.</li>
+            <li>Qualify NEET (for Indian students).</li>
+            <li>Apply to the university of your choice.</li>
+            <li>Receive admission confirmation and visa approval.</li>
+        </ul>
+    </section>
+
+    <!-- Top Countries -->
+    <section class="container mx-auto my-12 p-6">
+        <h2 class="text-3xl font-semibold text-center">Top Countries for MBBS</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Russia</span>
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Uzbekistan</span>
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Kazakhstan</span>
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Philippines</span>
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Georgia</span>
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Kyrgyzstan</span>
+            <span class="bg-blue-200 p-4 text-center rounded-lg">Egypt</span>
+        </div>
+    </section>
+
+    <!-- Lead Form -->
+    <section id="lead-form" class="container mx-auto my-12 p-6 bg-white rounded-md shadow-md">
+        <h2 class="text-3xl font-semibold text-center">Apply Now</h2>
+        <form id="applyForm" class="mt-6">
+            <input type="text" id="name" placeholder="Your Name" class="w-full p-3 border rounded mb-3" required>
+            <input type="email" id="email" placeholder="Your Email" class="w-full p-3 border rounded mb-3" required>
+            <input type="tel" id="phone" placeholder="Your Phone" class="w-full p-3 border rounded mb-3" required>
+            <select id="country" class="w-full p-3 border rounded mb-3">
+                <option value="">Preferred Country</option>
+                <option>Russia</option>
+                <option>Uzbekistan</option>
+                <option>Kazakhstan</option>
+                <option>Philippines</option>
+                <option>Georgia</option>
+                <option>Kyrgyzstan</option>
+                <option>Egypt</option>
+            </select>
+            <button type="submit" class="bg-blue-600 text-white p-3 w-full rounded">Submit</button>
+        </form>
+    </section>
+    
+    <script>
+        document.getElementById('applyForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Form submitted successfully!');
+        });
+    </script>
+</body>
+</html>
